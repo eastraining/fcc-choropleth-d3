@@ -1,0 +1,41 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 98vh;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.2em;
+}
+
+#title {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#description {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+#tooltip {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 1.5px 0.5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.2em;
+    padding: 2px;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+text {
+    font-size: 12px
+}
